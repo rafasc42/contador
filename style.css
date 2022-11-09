@@ -1,5 +1,40 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2{
+	width: 100vw;
+	text-align: center;
+}
+
+.number{
+	margin-left: 15px;
+}
+
+main{
+	width: 50vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 .quadrado{
-    height: 30px;
-    width: 30px;
+    width: 5vw;
+    height: 5vh;
+	margin: 10px;
     border-style: solid;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
 }
